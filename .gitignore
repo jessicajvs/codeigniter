@@ -1,0 +1,13 @@
+LICENSE
+README.md
+composer.json
+env_PROD
+nbproject/
+phpunit.xml.dist
+spark
+system/
+tests/
+writable/
+
+
+
