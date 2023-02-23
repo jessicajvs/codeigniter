@@ -16,6 +16,7 @@
                         <th>Nome</th>
                         <th>Telefone</th>
                         <th>Endereço</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -24,6 +25,7 @@
                         <th>Nome</th>
                         <th>Telefone</th>
                         <th>Endereço</th>
+                        <th></th>
                     </tr>
                 </tfoot>
                 <tbody>
@@ -34,6 +36,7 @@
                        <td><?php echo $p['nome']; ?></td>
                        <td><?php echo $p['telefone']; ?></td>
                        <td><?php echo $p['endereco']; ?></td>
+                       <td><a href="pessoa/<?php echo $p['id']; ?>" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" onclick="edit('<?php echo $p['id']; ?>')"><i class="fas fa-pen fa-sm text-white-50"></i> Editar</a></td>
                     </tr>
                    <?php endforeach; ?>
                    <?php endif; ?>
@@ -42,4 +45,22 @@
         </div>
     </div>
 </div>
+<div id="teste"></div>
+<script>
+    /*function edit(id){
+        $('#div_input_telefone').show();
+        $('#label_telefone').hide();
 
+        $.ajax({
+            url: '/pessoa/view',
+            beforeSend: function (f) {
+              $('#teste').html('Load Table ...');
+            },
+            success: function(r) {
+                //alert('sucesso ' + r);
+                $('#teste').html('');
+            }
+        });
+
+    }*/
+</script>

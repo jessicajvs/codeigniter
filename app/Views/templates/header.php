@@ -21,10 +21,13 @@
     <!-- Custom styles for this page -->
     <link href="/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
+    <script src="/vendor/jquery/jquery.min.js"></script>
+
 </head>
 
 <body id="page-top">
-
+    <!-- VERIFICAR SE JS ESTÁ HABILITADO -->
+    <!-- VERIFICAR SE VERSÃO DO BROWSER ESTÁ HABILITADO -->
 
     <!-- Page Wrapper -->
     <div id="wrapper">
