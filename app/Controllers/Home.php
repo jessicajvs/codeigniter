@@ -6,7 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        //$model = model(NewsModel::class);
 
         $data = [
             'title' => 'Dashboard',
