@@ -23,7 +23,10 @@ class PessoaModel extends Model
         //
     }
 
-
+    /**
+     * Retorna a pessoa encontrada de acordo com o parametro
+     * @id id da pessoa 
+     */
     public function getPessoa($id = null){
         return $this->find($id);
     }

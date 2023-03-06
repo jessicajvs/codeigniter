@@ -28,7 +28,7 @@
 <body id="page-top">
     <!-- VERIFICAR SE JS ESTÁ HABILITADO -->
     <!-- VERIFICAR SE VERSÃO DO BROWSER ESTÁ HABILITADO -->
-
+    <?php session()->set('redirect_url', base_url(route_to('dashboard'))); ?>
     <!-- Page Wrapper -->
     <div id="wrapper">
 
